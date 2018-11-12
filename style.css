@@ -99,7 +99,7 @@ main{
     padding:10px 20px;
     margin-bottom:12px;
 }
-#main>div:nth-of-child(3){
+#main>div:nth-of-type(3){
     margin-left:-70px;
 }
 kbd{
