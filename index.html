@@ -119,13 +119,18 @@
             }
             kbd.appendChild(del);
             
+
+            let img = document.createElement('img');
+            img.id = "img"+ keys[index][index2];
             if(hash[keys[index][index2]]){
-                let img = document.createElement('img');
-                img.id = "img"+ keys[index][index2];
                 img.src="//"+hash[keys[index][index2]]+"/favicon.ico";
-                kbd.appendChild(img);
+            }else{
+                img.src="//i.loli.net/2017/11/10/5a05afbc5e183.png";
             }
-            
+            img.onerror = function(event){
+                    event.target.src = "//i.loli.net/2017/11/10/5a05afbc5e183.png";
+                }
+            kbd.appendChild(img);
 
             div.appendChild(kbd);
         }
