@@ -90,6 +90,8 @@ main{
     margin-top:140px;
     margin-bottom:240px;
     text-align:center;
+    box-sizing:border-box;
+    padding-left:300px;
 }
 #main{
     display:inline;
