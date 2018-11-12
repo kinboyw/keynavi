@@ -99,6 +99,9 @@ main{
     padding:10px 20px;
     margin-bottom:12px;
 }
+#main>div:nth-of-child(3){
+    margin-left:-70px;
+}
 kbd{
     width: 47px;
     height: 69px;
